@@ -25,7 +25,10 @@ must be covered with tests.
 ### Installation & Running
 
 * Clone this repository
-* From projects root directory run `mvn spring-boot:run` or from IDE (Intellij IDEA should pick up configuration automatically)
+* From projects root directory:
+    * If Maven installed globally: run `mvn spring-boot:run` 
+    * Or use maven wrapper: run `./mvnw spring-boot:run` 
+    * Or from IDE (Intellij IDEA should pick up configuration automatically)
 
 #### Tests:
 If using maven: `mvn test`
